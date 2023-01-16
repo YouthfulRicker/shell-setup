@@ -3,6 +3,9 @@
 # mosh install
 sudo apt install mosh -y
 
+# tmux install
+sudo apt install tmux -y
+
 # zsh install
 sudo apt install zsh -y
 chsh -s $(which zsh) $(whoami)
