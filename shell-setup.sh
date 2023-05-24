@@ -23,3 +23,6 @@ wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/Hack.zip
 unzip Hack.zip
 sudo mv *.ttf /usr/share/fonts/truetype/hack/
 rm -rf ../hackfont
+
+# Tailscale install
+curl -fsSL https://tailscale.com/install.sh | sh
